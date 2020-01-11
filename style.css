@@ -32,3 +32,14 @@ section h2{
     font-size: 5rem;
     color: white;
 }
+.home {
+    background: linear-gradient(to right, #c04848, #480048);
+}
+section button{
+    background-color: white;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 15px;
+    border: white;
+    display: inline-block;
+}
