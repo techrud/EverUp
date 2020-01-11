@@ -27,10 +27,12 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 section h2{
-    font-size: 5rem;
+    font-size: 4rem;
     color: white;
+    margin: 30px;
 }
 .home {
     background: linear-gradient(to right, #c04848, #480048);
@@ -41,5 +43,15 @@ section button{
     margin: 1%;
     border-radius: 15px;
     border: white;
-    display: inline-block;
+    display: block;
+}
+a{
+    text-decoration: none;
+    color:orange;
+}
+h6{
+    color: white;
+}
+#hyu {
+    margin: 100px;
 }
